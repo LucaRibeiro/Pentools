@@ -31,4 +31,4 @@ else :
     if r.upper != 'Y':
         sys.exit()
 
-subprocess.run("cat ./core")
+subprocess.run(["bash", "./core"])
