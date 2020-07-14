@@ -16,11 +16,11 @@
 ### Run
 
 Clone o projeto:
+```bash
 git clone https://github.com/LucaRibeiro/Pentools.git
-Entre na pasta:
 cd Pentools
-Rode o programa com o Python 3:
-python3 pentools.py
+sudo python3 pentools.py
+```
 
 ## To-do
 
