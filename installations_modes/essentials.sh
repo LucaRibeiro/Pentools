@@ -38,7 +38,7 @@ if ! ls /opt | grep -q 'GitTools'; then
 fi
 ####################################################################################################################################################
 printf "${GREEN} Installing Metasploit ${RESET} \n"
-if ! sudo dpkg -l | grep -q 'metasploit'; then
+if ! ls /opt | grep -q 'metasploit-framework'; then
 	curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb >msfinstall
 	chmod 755 msfinstall
 	./msfinstall
