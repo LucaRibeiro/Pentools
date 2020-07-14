@@ -27,4 +27,4 @@ if ! sudo dpkg -l | grep -q 'wget'; then
 	sudo apt install wget -y
 fi
 ####################################################################################################################################################
-sudo bash ./essentials.sh
+sudo bash ./installations_modes/essentials.sh

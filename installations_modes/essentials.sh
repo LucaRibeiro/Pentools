@@ -31,11 +31,10 @@ if ! sudo dpkg -l | grep -q ''; then
 fi
 ####################################################################################################################################################
 printf "${GREEN} Installing git-dumper ${RESET} \n"
-if ! ls /opt | grep -q 'git-dumper'; then
-	cd /opt && git clone https://github.com/arthaud/git-dumper.git
-	pip install -r git-dumper/requirements.txt
-	export GIT_DUMPER=/opt/git-dumper
-	export PATH=$PATH:$GIT_DUMPER
+if ! ls /opt | grep -q 'GitTools'; then
+	cd /opt && git clone https://github.com/internetwache/GitTools
+	export GIT_TOOLS=/opt/GitTools
+	export PATH=$PATH:$GIT_TOOLS/Dumper:$GIT_TOOLS/Extractor:$GIT_TOOLS/Finder
 fi
 ####################################################################################################################################################
 printf "${GREEN} Installing Metasploit ${RESET} \n"
