@@ -26,15 +26,11 @@ fi
 printf "${GREEN} Installing sqlmap ${RESET} \n"
 if ! sudo dpkg -l | grep -q ''; then
 	cd /opt && git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
-	export SQLMAP=/opt/sqlmap-dev
-	export PATH=$PATH:$SQLMAP
 fi
 ####################################################################################################################################################
 printf "${GREEN} Installing git-dumper ${RESET} \n"
 if ! ls /opt | grep -q 'GitTools'; then
 	cd /opt && git clone https://github.com/internetwache/GitTools
-	export GIT_TOOLS=/opt/GitTools
-	export PATH=$PATH:$GIT_TOOLS/Dumper:$GIT_TOOLS/Extractor:$GIT_TOOLS/Finder
 fi
 ####################################################################################################################################################
 printf "${GREEN} Installing Metasploit ${RESET} \n"
@@ -51,14 +47,12 @@ if ! ls /opt | grep -q 'wpscan'; then
 	sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev
 	cd /opt && git clone https://github.com/wpscanteam/wpscan.git
 	cd wpscan
-	sudo gem install bundler && bundle install --without test development -y
+	sudo gem install bundler && bundle install --without test development
 fi
 ####################################################################################################################################################
 printf "${GREEN} Installing JohnTheRipper ${RESET} \n"
 if ! ls /opt | grep -q 'JohnTheRipper'; then
 	cd /opt && sudo git clone https://github.com/magnumripper/JohnTheRipper
-	export JOHN_THE_RIPPER=/opt/JohnTheRipper
-	export PATH=$PATH:$JOHN_THE_RIPPER
 fi
 #####################################################################################################################################################
 printf "${GREEN} Adding SecList ${RESET} \n"
