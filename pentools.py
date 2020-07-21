@@ -5,7 +5,7 @@ import sys
 import subprocess
 
 Banner = '''
-
+{}
  *******    ********  ****       **  ************   ********        ********     **         ********
  **    ***  **        ** **      **       **      ***      ***    ***      ***   **         ***
  **    ***  **        **  **     **       **     ***        ***  ***        ***  **         ***
@@ -13,15 +13,14 @@ Banner = '''
  **         **        **    **   **       **     ***        ***  ***        ***  **              ***
  **         **        **     **  **       **      ***      ***    ***      ***   **              ***
  **         ********  **      *****       **        ********        ********     *********  ********
-
-'''
+{}
+'''.format('\033[31m', '\033[m')
 print(Banner)
-
 OS = platform.system()
 
 if OS == 'Windows':
     pass
-    # sys.exit("Sorry :(, but Pentools is only compatible with Unix based Systems.")
+    sys.exit("Sorry :(, but Pentools is only compatible with Unix based Systems.")
 elif OS == 'Linux':
     pass
 else:
@@ -43,6 +42,8 @@ Option: '''))
 
     except ValueError:
         opt = None
+    except KeyboardInterrupt:
+        sys.exit()
 
 if opt == 1:
     subprocess.run(["sudo","bash", "./installations_modes/essentials.sh"])
