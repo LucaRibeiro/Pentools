@@ -44,10 +44,7 @@ fi
 ####################################################################################################################################################
 printf "${GREEN} Installing WPScan ${RESET} \n"
 if ! ls /opt | grep -q 'wpscan'; then
-	sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev
-	cd /opt && git clone https://github.com/wpscanteam/wpscan.git
-	cd wpscan
-	sudo gem install bundler && bundle install --without test development
+	sudo apt install wpscan
 fi
 ####################################################################################################################################################
 printf "${GREEN} Installing JohnTheRipper ${RESET} \n"
