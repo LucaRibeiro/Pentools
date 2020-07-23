@@ -3,87 +3,104 @@
 tools = [
     {
         "package": "CryptCat",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Cymothoa",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "dbd",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "dns2tcp",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "HTTPTunnel",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Intersect",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Nishang",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "polenum",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "PowerSploit",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "pwnat",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "RidEnum",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "sbd",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "shellter",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "U3-Pwn",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Webshells",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Weevely",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Winexe",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     }
 ]

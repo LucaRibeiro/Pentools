@@ -2,7 +2,8 @@
 
 import platform
 import sys
-import subprocess
+import os
+from src.installations_modes.complete import complete
 
 Banner = '''
 {}
@@ -20,7 +21,7 @@ OS = platform.system()
 
 if OS == 'Windows':
     pass
-    sys.exit("Sorry :(, but Pentools is only compatible with Unix based Systems.")
+    #sys.exit("Sorry :(, but Pentools is only compatible with Unix based Systems.")
 elif OS == 'Linux':
     pass
 else:
@@ -30,7 +31,7 @@ else:
     if r.upper != 'Y':
         sys.exit()
 
-subprocess.run(["sudo","bash", "./core.sh"])
+#subprocess.run(["sudo","bash", "./core.sh"])
 
 opt = None
 while opt != 1 and opt != 2:
@@ -46,6 +47,6 @@ Option: '''))
         sys.exit()
 
 if opt == 1:
-    subprocess.run(["sudo","bash", "./installations_modes/essentials.sh"])
+    os.system(["sudo","bash", "./installations_modes/essentials.sh"])
 elif opt == 2:
-    subprocess.run(["sudo","bash", "./installations_modes/complete.sh"])
+    complete()

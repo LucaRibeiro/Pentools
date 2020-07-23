@@ -3,63 +3,74 @@
 tools = [
     {
         "package": "apktool",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "dex2jar",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "diStorm3",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "edb-debugger",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "jad",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "javasnoop",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package":"JD-GUI",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "OllyDbg",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "smali",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Valgrind",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "YARA",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Reporting Tools",
-        "instalation":"",
+        "essential-tool": False,
+        "installation":"",
         "requiresUI": False
     }
-
 ]

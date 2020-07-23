@@ -2,63 +2,65 @@
 
 tools = [
     {
-
         "package": "CaseFile",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
-
         "package": "cherrytree",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
-
         "package": "CutyCapt",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
-
         "package": "dos2unix",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
-
         "package": "Dradis",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
 
     },
     {
         "package": "MagicTree",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
 
     },
     {
         "package": "Metagoofil",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
-
         "package": "Nipper-ng",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
-
         "package": "pipal",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
-
         "package": "RDPY",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
-}
+    }
 ]

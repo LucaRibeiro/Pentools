@@ -2,197 +2,236 @@
 tools = [
     {
         "package": "BruteSpray",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Burp Suite",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "CeWL",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "chntpw",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "cisco-auditing-tool",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "CmosPwd",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "creddump",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "crowbar",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "crunch",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "findmyhash",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "gpp-decrypt",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "hash-identifier",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Hashcat",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "HexorBase",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "THC-Hydra",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "John the Ripper",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Johnny",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "keimpx",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Maltego Teeth",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Maskprocessor",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "multiforcer",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Ncrack",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "oclgausscrack",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "ophcrack",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "PACK",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "patator",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "phrasendrescher",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "polenum",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "RainbowCrack",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "rcracki-mt",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "RSMangler",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "SecLists",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "SQLdict",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Statsprocessor",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "THC-pptp-bruter",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "TrueCrack",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "WebScarab",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "wordlists",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "zaproxy",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     }
 ]

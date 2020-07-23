@@ -3,72 +3,86 @@
 tools = [
     {
         "package": "DHCPig",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "FunkLoad",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "iaxflood",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Inundator",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "inviteflood",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "ipv6-toolkit",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "mdk3",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Reaver",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "rtpflood",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "SlowHTTPTest",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "t5False",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Termineter",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "THC-IPV6",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "THC-SSL-DOS",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     }
 ]

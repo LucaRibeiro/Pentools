@@ -3,32 +3,38 @@
 tools = [
     {
         "package": "android-sdk",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "apktool",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Arduino",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "dex2jar",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "Sakis3G",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     },
     {
         "package": "smali",
-        "instalation": "",
+        "essential-tool": False,
+        "installation": "",
         "requiresUI": False
     }
 ]
