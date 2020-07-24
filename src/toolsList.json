@@ -18,11 +18,40 @@
         ]
     },
     {
+        "package": "Armitage",
+        "installation": "sudo apt install armitage -y",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "exploitation"
+        ]
+    },
+    {
+        "package": "Backdoor Factory",
+        "installation": "sudo apt install backdoor-factory -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "exploitation"
+        ]
+    },
+    {
         "package": "BED",
         "installation": "sudo apt install bed -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
+    },
+    {
+        "package": "BeEF",
+        "installation": "echo 'Download unavailable'",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "exploitationb"
+        ]
     },
     {
         "package": "BBQSQL",
@@ -45,7 +74,7 @@
     {
         "package": "Burp Suite",
         "installation": "UI requires.",
-        "essential-tool": false,
+        "essential-tool": true,
         "requiresUI": true,
         "categories": [
             "web"
@@ -56,35 +85,67 @@
         "installation": "sudo apt install cisco-auditing-tool -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis",
+            "exploitation"
+        ]
     },
     {
         "package": "cisco-global-exploiter",
         "installation": "sudo apt install cisco-global-exploiter -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis",
+            "exploitation"
+        ]
     },
     {
         "package": "cisco-ocs",
         "installation": "sudo apt install cisco-ocs -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis",
+            "exploitation"
+        ]
     },
     {
         "package": "cisco-torch",
         "installation": "sudo apt install cisco-torch -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis",
+            "exploitation"
+        ]
     },
     {
         "package": "copy-router-config",
         "installation": "sudo apt install copy-router-config -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
+    },
+    {
+        "package": "Commix",
+        "installation": "sudo apt install commix -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "exploitation"
+        ]
+    },
+    {
+        "package": "crackle",
+        "installation": "sudo apt install crackle -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "exploitation"
+        ]
     },
     {
         "package": "CutyCapt",
@@ -136,14 +197,27 @@
         "installation": "sudo apt install doona -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
     },
     {
         "package": "DotDotPwn",
         "installation": "sudo apt install dotdotpwn -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
+    },
+    {
+        "package": "exploitdb",
+        "installation": "sudo apt install exploitdb -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "exploitation"
+        ]
     },
     {
         "package": "fimap",
@@ -183,10 +257,12 @@
     },
     {
         "package": "HexorBase",
-        "installation": "echo 'Download unavaliable.",
+        "installation": "echo 'Download unavailable.",
         "essential-tool": false,
         "requiresUI": true,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
     },
     {
         "package": "hURL",
@@ -203,7 +279,8 @@
         "essential-tool": false,
         "requiresUI": false,
         "categories": [
-            "web"
+            "web",
+            "exploitation"
         ]
     },
     {
@@ -221,7 +298,17 @@
         "essential-tool": false,
         "requiresUI": true,
         "categories": [
-            "web","vulnerability analysis"
+            "web",
+            "vulnerability analysis"
+        ]
+    },
+    {
+        "package": "Linux Exploit Suggester",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "exploitation"
         ]
     },
     {
@@ -229,7 +316,9 @@
         "installation": "sudo apt install lynis -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
     },
     {
         "package": "Maltego Teeth",
@@ -237,7 +326,26 @@
         "essential-tool": false,
         "requiresUI": false,
         "categories": [
-            "web"
+            "web",
+            "exploitation"
+        ]
+    },
+    {
+        "package": "Metasploit Framework",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "exploitation"
+        ]
+    },
+    {
+        "package": "MSFPC",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "exploitation"
         ]
     },
     {
@@ -254,28 +362,36 @@
         "installation": "sudo apt install nmap -y",
         "essential-tool": true,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
     },
     {
         "package": "ohrwurm",
         "installation": "sudo apt install ohrwurm -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
     },
     {
         "package": "openvas",
         "installation": "sudo apt install openvas -y",
         "essential-tool": false,
         "requiresUI": true,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
     },
     {
         "package": "Oscanner",
         "installation": "sudo apt install oscanner -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
     },
     {
         "package": "PadBuster",
@@ -319,7 +435,8 @@
         "essential-tool": false,
         "requiresUI": true,
         "categories": [
-            "web", "vulnerability analysis"
+            "web",
+            "vulnerability analysis"
         ]
     },
     {
@@ -341,25 +458,49 @@
         ]
     },
     {
+        "package": "RouterSploit",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "exploitation"
+        ]
+    },
+    {
+        "package": "SET",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "exploitation"
+        ]
+    },
+    {
         "package": "sfuzz",
         "installation": "sudo apt install sfuzz -y ",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
     },
     {
         "package": "SidGuesser",
         "installation": "sudo apt install sidguesser -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
     },
     {
         "package": "SIPArmyKnife",
         "installation": "sudo apt install siparmyknife -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
     },
     {
         "package": "Skipfish",
@@ -376,7 +517,9 @@
         "essential-tool": true,
         "requiresUI": false,
         "categories": [
-            "web","vulnerability analysis"
+            "web",
+            "vulnerability analysis",
+            "exploitation"
         ]
     },
     {
@@ -385,7 +528,8 @@
         "essential-tool": false,
         "requiresUI": false,
         "categories": [
-            "web", "vulnerability analysis"
+            "web",
+            "vulnerability analysis"
         ]
     },
     {
@@ -394,23 +538,37 @@
         "essential-tool": false,
         "requiresUI": false,
         "categories": [
-            "web","vulnerability analysis"
+            "web",
+            "vulnerability analysis"
         ]
     },
-    
+    {
+        "package": "ShellNoob",
+        "installation": "sudo apt install shellnoob -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "exploitation"
+        ]
+    },
     {
         "package": "THC-IPV6",
         "installation": "sudo apt install thc-ipv6 -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis",
+            "exploitation"
+        ]
     },
     {
         "package": "tnscmd1falseg",
-        "installation": "echo 'Download unavaliable.",
+        "installation": "echo 'Download unavailable.'",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
     },
     {
         "package": "ua-tester",
@@ -435,7 +593,9 @@
         "installation": "sudo apt install unix-privesc-check -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis"
+        ]
     },
     {
         "package": "w3af",
@@ -523,7 +683,10 @@
         "installation": "sudo apt install yersinia -y",
         "essential-tool": false,
         "requiresUI": false,
-        "categories": ["vulnerability analysis"]
+        "categories": [
+            "vulnerability analysis",
+            "exploitation"
+        ]
     },
     {
         "package": "zaproxy",
