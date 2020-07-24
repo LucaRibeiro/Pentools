@@ -1,6 +1,5 @@
-# Not implemented
-./tools/*
-
 # Byte-compiled
 __pycache__/
 *.py[cod]
+
+*.txt
