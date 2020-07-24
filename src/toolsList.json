@@ -1,0 +1,537 @@
+[
+    {
+        "package": "apache-users",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Arachni",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "BED",
+        "installation": "sudo apt install bed -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "BBQSQL",
+        "installation": "sudo pip3 install bbqsql",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "BlindElephant",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Burp Suite",
+        "installation": "UI requires.",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "cisco-auditing-tool",
+        "installation": "sudo apt install cisco-auditing-tool -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "cisco-global-exploiter",
+        "installation": "sudo apt install cisco-global-exploiter -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "cisco-ocs",
+        "installation": "sudo apt install cisco-ocs -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "cisco-torch",
+        "installation": "sudo apt install cisco-torch -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "copy-router-config",
+        "installation": "sudo apt install copy-router-config -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "CutyCapt",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "DAVTest",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "deblaze",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "DIRB",
+        "installation": "sudo apt install dirb -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "DirBuster",
+        "installation": "UI requires.",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Doona",
+        "installation": "sudo apt install doona -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "DotDotPwn",
+        "installation": "sudo apt install dotdotpwn -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "fimap",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "FunkLoad",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Gobuster",
+        "installation": "sudo apt install gobuster -y",
+        "essential-tool": true,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Grabber",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "HexorBase",
+        "installation": "echo 'Download unavaliable.",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "hURL",
+        "installation": "sudo apt-get install hurl -y'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "jboss-autopwn",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "joomscan",
+        "installation": "sudo apt-get install joomscan -y'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "jSQL Injection",
+        "installation": "UI requires.",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "web","vulnerability analysis"
+        ]
+    },
+    {
+        "package": "Lynis",
+        "installation": "sudo apt install lynis -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "Maltego Teeth",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Nikto",
+        "installation": "sudo apt install -y nikto",
+        "essential-tool": true,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Nmap",
+        "installation": "sudo apt install nmap -y",
+        "essential-tool": true,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "ohrwurm",
+        "installation": "sudo apt install ohrwurm -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "openvas",
+        "installation": "sudo apt install openvas -y",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "Oscanner",
+        "installation": "sudo apt install oscanner -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "PadBuster",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Paros",
+        "installation": "UI requires.",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Parsero",
+        "installation": "sudo pip3 install parsero",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "plecost",
+        "installation": "sudo pip3 install plecost",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Powerfuzzer",
+        "installation": "UI requires.",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "web", "vulnerability analysis"
+        ]
+    },
+    {
+        "package": "ProxyStrike",
+        "installation": "UI requires.",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Recon-ng",
+        "installation": "sudo apt install recon-ng -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "sfuzz",
+        "installation": "sudo apt install sfuzz -y ",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "SidGuesser",
+        "installation": "sudo apt install sidguesser -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "SIPArmyKnife",
+        "installation": "sudo apt install siparmyknife -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "Skipfish",
+        "installation": "sudo apt install skipfish -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "sqlmap",
+        "installation": "sudo apt install sqlmap -y",
+        "essential-tool": true,
+        "requiresUI": false,
+        "categories": [
+            "web","vulnerability analysis"
+        ]
+    },
+    {
+        "package": "Sqlninja",
+        "installation": "sudo apt install sqlninja -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web", "vulnerability analysis"
+        ]
+    },
+    {
+        "package": "sqlsus",
+        "installation": "sudo apt install sqlsus -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web","vulnerability analysis"
+        ]
+    },
+    
+    {
+        "package": "THC-IPV6",
+        "installation": "sudo apt install thc-ipv6 -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "tnscmd1falseg",
+        "installation": "echo 'Download unavaliable.",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "ua-tester",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Uniscan",
+        "installation": "sudo apt install uniscan -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "unix-privesc-check",
+        "installation": "sudo apt install unix-privesc-check -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "w3af",
+        "installation": "UI requires.",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "WebScarab",
+        "installation": "UI requires.",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Webshag",
+        "installation": "echo 'Download unavailable.'",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "WebSlayer",
+        "installation": "UI requires.",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "WebSploit",
+        "installation": "sudo apt install websploit -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Wfuzz",
+        "installation": "sudo apt install wfuzz -y",
+        "essential-tool": true,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "WhatWeb",
+        "installation": "sudo apt install whatweb -y",
+        "essential-tool": true,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "WPScan",
+        "installation": "sudo apt install wpscan -y",
+        "essential-tool": true,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "XSSer",
+        "installation": "sudo apt install xsser -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
+        "package": "Yersinia",
+        "installation": "sudo apt install yersinia -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": ["vulnerability analysis"]
+    },
+    {
+        "package": "zaproxy",
+        "installation": "UI requires.",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "web"
+        ]
+    }
+]
