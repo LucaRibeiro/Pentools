@@ -1,4 +1,9 @@
-from ..toolsList.web_application_analysis import web_application_analisys
+from ..category import Category
+import json
 
 def complete():
-    web_application_analisys.installWithoutUI()
+    with open('src/toolsList.json', 'r') as json_list:
+        toolsList = json.load(json_list)
+
+    tools = Category(toolsList)
+    tools.installWithoutUI()
