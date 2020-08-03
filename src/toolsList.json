@@ -36,6 +36,15 @@
         ]
     },
     {
+        "package": "BBQSQL",
+        "installation": "sudo pip3 install bbqsql",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "web"
+        ]
+    },
+    {
         "package": "BED",
         "installation": "sudo apt install bed -y",
         "essential-tool": false,
@@ -54,12 +63,12 @@
         ]
     },
     {
-        "package": "BBQSQL",
-        "installation": "sudo pip3 install bbqsql",
+        "package": "Binwalk",
+        "installation": "sudo apt install binwalk -y",
         "essential-tool": false,
         "requiresUI": false,
         "categories": [
-            "web"
+            "forensics"
         ]
     },
     {
@@ -72,12 +81,30 @@
         ]
     },
     {
+        "package": "bulk-extract",
+        "installation": "sudo apt install bulk-extract",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    {
         "package": "Burp Suite",
         "installation": "UI requires.",
         "essential-tool": true,
         "requiresUI": true,
         "categories": [
             "web"
+        ]
+    },
+    {
+        "package": "Capstone",
+        "installation": "echo 'Download unavailable.' ",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
         ]
     },
     {
@@ -148,6 +175,15 @@
         ]
     },
     {
+        "package": "Cuckoo",
+        "installation": "echo 'Download unavailable.' ",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    {
         "package": "CutyCapt",
         "installation": "echo 'Download unavailable.'",
         "essential-tool": false,
@@ -156,6 +192,18 @@
             "web"
         ]
     },
+    
+    
+    {
+        "package": "chntpw",
+        "installation": "echo 'Download unavailable.' ",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    
     {
         "package": "DAVTest",
         "installation": "echo 'Download unavailable.'",
@@ -166,12 +214,40 @@
         ]
     },
     {
+        "package": "dc3dd",
+        "installation": "sudo apt install dc3dd -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    
+    {
+        "package": "ddrescue",
+        "installation": "sudo apt install ddrescue -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    {
         "package": "deblaze",
         "installation": "echo 'Download unavailable.'",
         "essential-tool": false,
         "requiresUI": false,
         "categories": [
             "web"
+        ]
+    },
+    {
+        "package": "DFF",
+        "installation": "echo 'Download unavailable.' ",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "forensics"
         ]
     },
     {
@@ -193,6 +269,15 @@
         ]
     },
     {
+        "package": "diStorm3",
+        "installation": "echo 'Download unavailable.' ",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    {
         "package": "Doona",
         "installation": "sudo apt install doona -y",
         "essential-tool": false,
@@ -211,6 +296,15 @@
         ]
     },
     {
+        "package": "Dumpzilla",
+        "installation": "sudo apt install dumpzilla -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    {
         "package": "exploitdb",
         "installation": "sudo apt install exploitdb -y",
         "essential-tool": false,
@@ -220,12 +314,30 @@
         ]
     },
     {
+        "package": "extundelete",
+        "installation": "sudo apt install extundelete -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    {
         "package": "fimap",
         "installation": "echo 'Download unavailable.'",
         "essential-tool": false,
         "requiresUI": false,
         "categories": [
             "web"
+        ]
+    },
+    {
+        "package": "Foremost",
+        "installation": "sudo apt install foremost -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
         ]
     },
     {
@@ -247,12 +359,30 @@
         ]
     },
     {
+        "package": "Galleta",
+        "installation": "sudo apt install galleta -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    {
         "package": "Grabber",
         "installation": "echo 'Download unavailable.'",
         "essential-tool": false,
         "requiresUI": false,
         "categories": [
             "web"
+        ]
+    },
+    {
+        "package": "Guymager",
+        "installation": "sudo apt install guymager -y",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "forensics"
         ]
     },
     {
@@ -271,6 +401,15 @@
         "requiresUI": false,
         "categories": [
             "web"
+        ]
+    },
+    {
+        "package": "iPhone Backup Analyzer",
+        "installation": "echo 'Download unavailable.' ",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "forensics"
         ]
     },
     {
@@ -412,12 +551,57 @@
         ]
     },
     {
+        "package": "p0f",
+        "installation": "sudo apt install p0f -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    {
         "package": "Parsero",
         "installation": "sudo pip3 install parsero",
         "essential-tool": false,
         "requiresUI": false,
         "categories": [
             "web"
+        ]
+    },
+    {
+        "package": "peepdf",
+        "installation": "echo 'Download unavailable.' ",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    {
+        "package": "pdf-parser",
+        "installation": "sudo apt install pdf-parser -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    {
+        "package": "pdfid",
+        "installation": "sudo apt install pdfid -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    {
+        "package": "pdgmail",
+        "installation": "echo 'Download unavailable.' ",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
         ]
     },
     {
@@ -455,6 +639,15 @@
         "requiresUI": false,
         "categories": [
             "web"
+        ]
+    },
+    {
+        "package": "RegRipper",
+        "installation": "sudo apt install regripper -y",
+        "essential-tool": false,
+        "requiresUI": true,
+        "categories": [
+            "forensics"
         ]
     },
     {
@@ -598,6 +791,15 @@
         ]
     },
     {
+        "package": "Volatility",
+        "installation": "sudo apt install volatility -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
+        ]
+    },
+    {
         "package": "w3af",
         "installation": "UI requires.",
         "essential-tool": false,
@@ -667,6 +869,15 @@
         "requiresUI": false,
         "categories": [
             "web"
+        ]
+    },
+    {
+        "package": "Xplico",
+        "installation": "sudo apt install xplico -y",
+        "essential-tool": false,
+        "requiresUI": false,
+        "categories": [
+            "forensics"
         ]
     },
     {
