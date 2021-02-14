@@ -27,7 +27,7 @@ elif OS == 'Linux':
 else:
     print("Unidentifield OS....")
     r = chr(
-        input(' Pentools is only compatible with Linux System Operation, continue? (y)'))
+        input(' Pentools is only compatible with Linux Operation System, continue? (y)'))
     if r.upper != 'Y':
         sys.exit()
 

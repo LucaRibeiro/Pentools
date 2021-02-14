@@ -469,4 +469,5 @@ tools = [
         "installation": "",
         "requiresUI": False
         "categories": ["information gathering"]
-    }]
+    }
+]

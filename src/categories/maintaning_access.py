@@ -1,5 +1,3 @@
-#!/usr/python3
-
 tools = [
     {
         "package": "CryptCat",

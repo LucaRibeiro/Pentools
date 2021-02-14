@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 from ..category import Category
 import json
 

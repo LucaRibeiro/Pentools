@@ -9,7 +9,7 @@ def essentials():
 
     for tool in toolsList:
         if tool.get('essential-tool'):
-        essentialsTools.append(tool)
+            essentialsTools.append(tool)
 
     essentialsTools = Category(essentialsTools)
     essentialsTools.installWithoutUI()

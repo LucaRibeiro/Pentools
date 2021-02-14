@@ -1,46 +1,13 @@
-#!/usr/bin/python3
+from ..category import Category
+import json
 
-tools = [
-    {
-        "package": "android-sdk",
-        "installation": "",
-        "essential-tool": false,
-        "requiresUI": false,
-        "categories": ["hardware hacking"]
-    },
-    {
-        "package": "apktool",
-        "installation": "",
-        "essential-tool": false,
-        "requiresUI": false,
-        "categories": ["hardware hacking"]
-    },
-    {
-        "package": "Arduino",
-        "installation": "",
-        "essential-tool": false,
-        "requiresUI": false,
-        "categories": ["hardware hacking"]
-    },
-    {
-        "package": "dex2jar",
-        "installation": "",
-        "essential-tool": false,
-        "requiresUI": false,
-        "categories": ["hardware hacking"]
-    },
-    {
-        "package": "Sakis3G",
-        "installation": "",
-        "essential-tool": false,
-        "requiresUI": false,
-        "categories": ["hardware hacking"]
-    },
-    {
-        "package": "smali",
-        "installation": "",
-        "essential-tool": false,
-        "requiresUI": false,
-        "categories": ["hardware hacking"]
-    }
-]
+web_tools = list({})
+
+with open('src/toolsList.json', 'r') as json_list:
+    toolsList = json.load(json_list)
+
+for tool in toolsList:
+    if 'web' in tool.get('categories'):
+       web_tools.append(tool)
+
+web_application_analisys = Category(web_tools)
