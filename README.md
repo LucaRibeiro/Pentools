@@ -8,13 +8,9 @@
 ## Deploy
 
 ### Requirements
-
-- WSL for Windows
 - Python 3
 
 ### Run
-
-Clone o projeto:
 ```bash
 git clone https://github.com/LucaRibeiro/Pentools.git
 cd Pentools
@@ -22,7 +18,6 @@ sudo python3 pentools.py
 ```
 
 ## To-do
-
 1. Add repository to tools in categories
 2. Add instalation option for Windows
 3. Add "Complete" instalation mode
